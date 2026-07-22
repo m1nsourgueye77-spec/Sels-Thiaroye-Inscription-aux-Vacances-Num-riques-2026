@@ -218,3 +218,24 @@ footer{
     margin-bottom:5px;
 
 }
+
+
+
+.checkbox-item{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin:12px 0;
+    cursor:pointer;
+}
+
+.checkbox-item input[type="checkbox"]{
+    width:18px;
+    height:18px;
+    margin:0;
+    flex-shrink:0;
+}
+
+.checkbox-item span{
+    font-size:16px;
+}
