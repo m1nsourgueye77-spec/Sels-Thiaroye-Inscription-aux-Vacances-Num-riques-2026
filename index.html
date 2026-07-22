@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Vacances Numériques 2026</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header class="hero">
+
+    <h1>VACANCES NUMÉRIQUES 2026</h1>
+
+    <p class="organisateur">
+        Organisé par le Syndicat des Enseignants Libres du Sénégal (SELS)<br>
+        <strong>Section THIAROYE</strong>
+    </p>
+
+    <p class="partenariat">
+        En partenariat avec<br>
+        Gi.Code Formation – COHASELS – MUTUSELS – Les délices de chez Awa –  IEF – IA/PG
+    </p>
+
+    <div class="infos">
+        <span>📅 Du 04 août au 30 septembre 2026</span>
+        <span>📍 à EE Martyr A – Thiaroye</span>
+        
+    </div>
+
+</header>
+
+
+
+<section class="tarifs">
+
+<div class="logos">
+
+    <img src="Logo SELS.jpeg" alt="SELS">
+
+    <img src="Logo Gi. Code .jpeg" alt="Gi.Code">
+
+    <img src="Logo MUTSELS.jpeg" alt="MUTUSELS">
+    <img src="logo les délices chez Awa.jpeg" alt="les délices chez Awa">
+
+</div>
+
+    <h2>📢 Informations importantes</h2>
+
+    <ul>
+
+        <li>
+            💻 <strong>Informatique :</strong>
+            20 000 FCFA
+            (10 000 FCFA à l'inscription + 10 000 FCFA fin août)
+        </li>
+
+        <li>
+            🚗 <strong>Code & Conduite :</strong>
+            110 000 FCFA
+            (timbres à la charge du bénéficiaire)
+        </li>
+
+        <li>
+            📖 <strong>Lecture du Coran :</strong>
+            10 000 FCFA / 2 mois
+        </li>
+
+        <li>
+            🎓 Une attestation de participation est remise à la fin de la formation.
+        </li>
+
+    </ul>
+
+</section>
+
+
+<div class="organisatrice">
+
+    <img src="logo SG SELS Thiaroye.jpeg" alt="Organisatrice">
+
+    <div class="organisatrice-info">
+
+        <h3>Mot de bienvenue</h3>
+
+        <p>
+            Bienvenue aux Vacances Numériques 2026.
+            Nous sommes heureux de vous accompagner dans votre formation
+            en informatique, en conduite automobile et en lecture du Coran.
+            Merci de remplir soigneusement ce formulaire d'inscription.
+        </p>
+
+        <h4>Mme SALL Fatou GUEYE</h4>
+
+        <p>SG SELS / THIAROYE et Coordonnatrice des Vacances Numériques</p>
+
+    </div>
+
+</div>
+
+
+<h1 class="titre-formulaire">
+    FORMULAIRE D'INSCRIPTION
+</h1>
+
+<form id="form">
+
+<input
+type="text"
+name="prenoms"
+placeholder="Prénoms"
+required>
+
+<input
+type="text"
+name="nom"
+placeholder="Nom"
+required>
+
+<input
+type="tel"
+name="telephone"
+placeholder="Téléphone"
+required>
+
+<h3>Formation(s) choisie(s)</h3>
+
+<label>
+<input type="checkbox" name="informatique">
+Informatique 100% pratique
+</label>
+
+<label>
+<input type="checkbox" name="permis">
+Permis de conduire (4ème session)
+</label>
+
+<label>
+<input type="checkbox" name="coran">
+Lecture du Coran
+</label>
+
+<h3>Paiement</h3>
+
+<select name="echeance" required>
+    <option value="">Choisir...</option>
+    <option value="Inscription">Inscription (10 000 FCFA)</option>
+    <option value="Deuxième mensualité">Deuxième mensualité (10 000 FCFA)</option>
+    <option value="Paiement complet">Paiement complet (20 000 FCFA)</option>
+</select>
+
+<input
+type="date"
+name="datePaiement"
+required>
+
+<label class="engagement">
+
+<input
+type="checkbox"
+name="engagement"
+required>
+
+Je confirme l'exactitude des informations fournies et je m'engage à respecter les horaires de formation.
+
+</label>
+
+<button type="submit">
+
+S'inscrire
+
+</button>
+
+</form>
+
+<p id="message"></p>
+
+</div>
+
+
+<footer>
+
+    <p>
+        <strong>Partenaires :</strong><br>
+
+        COHASELS • MUTSELS • IEF • IA/PG
+
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
