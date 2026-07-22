@@ -130,22 +130,24 @@ name="telephone"
 placeholder="Téléphone"
 required>
 
+
 <h3>Formation(s) choisie(s)</h3>
 
-<label>
-<input type="checkbox" name="informatique">
-Informatique 100% pratique
+<label class="checkbox-item">
+    <input type="checkbox" name="informatique">
+    <span>Informatique 100 % pratique</span>
 </label>
 
-<label>
-<input type="checkbox" name="permis">
-Permis de conduire (4ème session)
+<label class="checkbox-item">
+    <input type="checkbox" name="permis">
+    <span>Permis de conduire (4ème session)</span>
 </label>
 
-<label>
-<input type="checkbox" name="coran">
-Lecture du Coran
+<label class="checkbox-item">
+    <input type="checkbox" name="coran">
+    <span>Lecture du Coran</span>
 </label>
+
 
 <h3>Paiement</h3>
 
@@ -195,14 +197,14 @@ Orange Money
 
 </select>
 
-<label class="engagement">
+<label class="checkbox-item">
 <input
-type="date"
-name="datePaiement"
+type="checkbox"
+name="engagement"
 required>
-
+<span>
 Je confirme l'exactitude des informations fournies et je m'engage à respecter les horaires de formation.
-
+</span>
 </label>
 
 <button type="submit">
